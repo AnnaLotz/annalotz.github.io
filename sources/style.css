@@ -108,6 +108,15 @@ h1 {
   padding-left: 1em;
 }
 
+.MediaBox ul {
+  list-style-type: circle;
+}
+
+.MediaBox.Skills {
+  line-height: 2em;
+}
+
+
 /*Hover-Effect auf Image */
 .overlay {
   position: absolute;
@@ -152,6 +161,14 @@ h1 {
   display: inline-block;
 }
 
+
+/* -----------------  -----------------*/
+
+.skillsLogos {
+  height: 64px;
+  float: right;
+  padding-left: 0.5em;
+}
 
 /* ----------------- Footer -----------------*/
 

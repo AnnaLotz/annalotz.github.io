@@ -11,9 +11,12 @@ namespace MyPortfolio {
     function handleLoad(_event: Event): void {
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
-            [walkcycleRoxie, spaceAdventure, houdiniVellum, tableScene, spaceShips, droids,
-                progText, spaceInvaders, realDream, escapeTheEdge, websitePortfolio, seaworld,
-                musikgigant, cypcyd];
+            [
+                walkcycleRoxie, spaceAdventure, houdiniVellum, tableScene, spaceShips, droids,
+                spaceInvaders, thesis, realDream, escapeTheEdge, websitePortfolio, seaworld,
+                musikgigant, cypcyd,
+                unity, max3ds, substacePainter, webTech, imageEditing, videoEditing
+            ];
         installListeners();
         showStartPage();
     }

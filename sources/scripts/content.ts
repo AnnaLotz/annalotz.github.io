@@ -39,6 +39,15 @@ namespace MyPortfolio {
         link: "https://youtu.be/bfQAIsTYnAU"
     };
 
+    export let tableScene: Worksample = {
+        category: "3D",
+        title: "Table and Chairs",
+        description: "Models and UV-Layout in 3ds Max, textured in Adobe Substance 3D Painter.",
+        time: "03/2022",
+        picture: "sources/pictures/tableScene.png",
+        link: ""
+    };
+
     export let spaceShips: Worksample = {
         category: "3D",
         title: "Tie-Fighter and A-Wing",
@@ -62,7 +71,7 @@ namespace MyPortfolio {
     export let progText: Worksample = {
         category: "Prog",
         title: "Programming Skills and Tools",
-        description: "Text to come. <p>C#, Unity, Typescript, UML, HTML5, CSS</p>",
+        description: "These are the skills and tools I know regarding technical- and programming-related stuff: <p>C#, Unity, Typescript, UML, HTML5, CSS</p>",
         time: "",
         picture: "",
         link: ""
@@ -75,6 +84,15 @@ namespace MyPortfolio {
         time: "SS 2018",
         picture: "sources/pictures/spaceInvaders.png",
         link: "https://annalotz.github.io/EIA2/SpaceInvaders2/spaceInvaders.html"
+    };
+
+    export let realDream: Worksample = {
+        category: "Prog",
+        title: "RealDream",
+        description: "An interactive installation to control a holographic projection with a physical cube. My main task in this group project was to make the technical prototype. This was done with an arduino and processing its data in Unity. ",
+        time: "SS 2020",
+        picture: "sources/pictures/realDream.png",
+        link: "https://youtu.be/uOWimO_lPgc"
     };
 
     export let escapeTheEdge: Worksample = {

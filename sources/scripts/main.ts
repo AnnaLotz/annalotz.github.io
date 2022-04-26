@@ -1,15 +1,20 @@
 namespace MyPortfolio {
-    
+
     /*--------------------------------------------------------------- */
+
     window.addEventListener("load", handleLoad);
+
     /*--------------------------------------------------------------- */
+
     let worksamples: Worksample[] = [];
     let startPageDiv: HTMLDivElement;
     let contentNode: HTMLDivElement;
+
     /*--------------------------------------------------------------- */
 
     function handleLoad(_event: Event): void {
         console.log("Hello World, Anna here with my selfmade Website!");
+        console.log("Cool, you're looking deeper into my website ;) ");
 
         startPageDiv = <HTMLDivElement>document.getElementById("startPage");
         contentNode = <HTMLDivElement>document.getElementById("content");
@@ -26,27 +31,28 @@ namespace MyPortfolio {
 
 
     function handleNavClick(_event: MouseEvent): void {
-        console.log("Clicked List Element in Head");
         let clicked: HTMLLIElement = <HTMLLIElement>_event.currentTarget;
-        console.log(clicked.id);
+        console.log("Clicked List Element in Head: " + clicked.id);
+
         if (clicked.id == "About_Me")
             showStartPage();
         else
             generateHTMLData(clicked.id);
     }
 
+
     function installListeners(): void {
         let navElements: HTMLCollectionOf<HTMLLIElement> = document.getElementsByTagName("header")[0].getElementsByTagName("li");
 
         for (let navElement of navElements) {
-            console.log("found navElement");
             navElement.addEventListener("click", handleNavClick);
         }
     }
 
+
     function showStartPage(): void {
         contentNode.innerHTML = "";
-        startPageDiv.style.display = "initial";
+        startPageDiv.style.display = "block";
     }
 
 
@@ -74,7 +80,6 @@ namespace MyPortfolio {
             }
         }
         contentNode.innerHTML = content;
-
     }
 
 }

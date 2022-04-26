@@ -10,6 +10,7 @@ var MyPortfolio;
     /*--------------------------------------------------------------- */
     function handleLoad(_event) {
         console.log("Hello World, Anna here with my selfmade Website!");
+        console.log("Cool, you're looking deeper into my website ;) ");
         startPageDiv = document.getElementById("startPage");
         contentNode = document.getElementById("content");
         worksamples =
@@ -23,9 +24,8 @@ var MyPortfolio;
         showStartPage();
     }
     function handleNavClick(_event) {
-        console.log("Clicked List Element in Head");
         let clicked = _event.currentTarget;
-        console.log(clicked.id);
+        console.log("Clicked List Element in Head: " + clicked.id);
         if (clicked.id == "About_Me")
             showStartPage();
         else
@@ -34,13 +34,12 @@ var MyPortfolio;
     function installListeners() {
         let navElements = document.getElementsByTagName("header")[0].getElementsByTagName("li");
         for (let navElement of navElements) {
-            console.log("found navElement");
             navElement.addEventListener("click", handleNavClick);
         }
     }
     function showStartPage() {
         contentNode.innerHTML = "";
-        startPageDiv.style.display = "initial";
+        startPageDiv.style.display = "block";
     }
     function generateHTMLData(categoryFilter) {
         startPageDiv.style.display = "none";

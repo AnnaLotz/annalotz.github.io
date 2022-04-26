@@ -12,10 +12,10 @@ namespace MyPortfolio {
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
             [
-                walkcycleRoxie, spaceAdventure, houdiniVellum, tableScene, spaceShips, droids,
-                spaceInvaders, thesis, realDream, escapeTheEdge, websitePortfolio, seaworld,
+                walkcycleRoxie, spaceAdventure, houdiniVellum, tableScene, /*spaceShips,*/ droids,
+                spaceInvaders, thesis, realDream, escapeTheEdge, websitePortfolio, /* seaworld, */
                 musikgigant, cypcyd,
-                unity, max3ds, substacePainter, webTech, imageEditing, videoEditing
+                unity, max3ds, substacePainter, webTech, imageEditing, videoEditing, otherSkills
             ];
         installListeners();
         showStartPage();
@@ -48,7 +48,7 @@ namespace MyPortfolio {
 
         content += "<h2 id='placeholderText'>Hi, Anna here. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.png'>";
 
-        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
+        content += "<p><i> To do: design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
 
         node.innerHTML = content;
     }

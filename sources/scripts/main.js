@@ -10,10 +10,10 @@ var MyPortfolio;
         console.log("Hello World, Anna here with my selfmade Website!");
         worksamples =
             [
-                MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.houdiniVellum, MyPortfolio.tableScene, MyPortfolio.spaceShips, MyPortfolio.droids,
-                MyPortfolio.spaceInvaders, MyPortfolio.thesis, MyPortfolio.realDream, MyPortfolio.escapeTheEdge, MyPortfolio.websitePortfolio, MyPortfolio.seaworld,
+                MyPortfolio.walkcycleRoxie, MyPortfolio.spaceAdventure, MyPortfolio.houdiniVellum, MyPortfolio.tableScene, /*spaceShips,*/ MyPortfolio.droids,
+                MyPortfolio.spaceInvaders, MyPortfolio.thesis, MyPortfolio.realDream, MyPortfolio.escapeTheEdge, MyPortfolio.websitePortfolio,
                 MyPortfolio.musikgigant, MyPortfolio.cypcyd,
-                MyPortfolio.unity, MyPortfolio.max3ds, MyPortfolio.substacePainter, MyPortfolio.webTech, MyPortfolio.imageEditing, MyPortfolio.videoEditing
+                MyPortfolio.unity, MyPortfolio.max3ds, MyPortfolio.substacePainter, MyPortfolio.webTech, MyPortfolio.imageEditing, MyPortfolio.videoEditing, MyPortfolio.otherSkills
             ];
         installListeners();
         showStartPage();
@@ -38,7 +38,7 @@ var MyPortfolio;
         let node = document.getElementById("content");
         let content = "";
         content += "<h2 id='placeholderText'>Hi, Anna here. This is my Portfolio, it's currently under construction. More content comming soon.</h2><img title='me' id='myPhoto' src='sources/pictures/me.png'>";
-        content += "<p><i> To do: Fill Content, design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
+        content += "<p><i> To do: design About-Me, difference youtube-Link <-> game-Link, make responsive for smartphone, footer css and content, Haftungsauschluss, Impressum</i></p>";
         node.innerHTML = content;
     }
     function generateHTMLData(categoryFilter) {

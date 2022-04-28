@@ -17,8 +17,7 @@ var MyPortfolio;
         category: "Prog",
         title: "Bachelor Thesis",
         description: "<p>Title: 'Conception and prototypical implementation of a cross-platform VR game with local multiplayer' </p>" +
-            "The Thesis was written at the company 'Couch in the Woods Interactive'. " +
-            "It was used as a basis for their Game-Concept 'VR below the sea' which was nominated for 'best Concept' at the  GDD Indie Award 2021. /* Link zu GDD Indie-Award*/",
+            "The Thesis was written at the company 'Couch in the Woods Interactive'. ",
         time: "WS 2020",
         picture: "",
         link: ""

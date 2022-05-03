@@ -228,7 +228,7 @@ var MyPortfolio;
             "<li>Google Docs, Sheets & Slides - &#11088 &#11088</li>" +
             "<li>UML - &#11088</li>" +
             "<li>Git - &#11088</li>" +
-            "<li>Ardiuno & physical computing - &#11088</li>" +
+            "<li>Arduino & physical computing - &#11088</li>" +
             "</ul>",
         time: "",
         picture: "",

@@ -74,7 +74,7 @@ namespace MyPortfolio {
                     content += "<img class='img' title = 'title' src =' " + worksample.picture + "'>";
                 }
                 content += "<div class='TextBox'>";
-                content += "<h2>" + worksample.title + " </h2>";
+                content += "<h3>" + worksample.title + " </h3> <hr>";
                 content += "<p>" + worksample.description + " </p>";
                 content += "</div></div></div>";
             }

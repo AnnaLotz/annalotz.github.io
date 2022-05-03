@@ -62,7 +62,7 @@ namespace MyPortfolio {
         title: "This Website",
         description: "This Website is completely handmade by me with html, css and typescript. The hosting is done over Github-Pages.",
         time: "",
-        picture: "",
+        picture: "sources/pictures/thisWebsite.png",
         link: ""
     };
     /*

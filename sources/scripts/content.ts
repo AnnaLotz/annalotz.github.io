@@ -29,8 +29,20 @@ namespace MyPortfolio {
         category: "Prog",
         title: "Bachelor Thesis",
         description:
+            "<p>My Thesis was written at the company 'Couch in the Woods Interactive'. </p>" +
             "<p>Title: 'Conception and prototypical implementation of a cross-platform VR game with local multiplayer' </p>" +
-            "The Thesis was written at the company 'Couch in the Woods Interactive'. ",
+            "Abstract: 'The virtual reality (VR) market has been growing continuously since 2017. " +
+            "Nevertheless, for many users the low quantity of high-quality contents is a " +
+            "reason not to buy a VR system. In order to attract more gamers, this Thesis " +
+            "develops a concept and a prototype for a game that uses a cross-platform " +
+            "design between VR and smartphones. The game is based on one person " +
+            "using a VR system to play, while a co-player in the same room uses a " +
+            "smartphone. For research, online sources and scientific papers are used as " +
+            "well as analogue and digital games. These are analyzed in terms of general " +
+            "mechanics and interaction between the co-players and adapted to the game " +
+            "concept. This Thesis aims at showing the aspects of the current state of " +
+            "research and development that must be considered when developing a " +
+            "cross-platform VR game with a local multiplayer mode.'",
         time: "WS 2020",
         picture: "",
         link: ""
